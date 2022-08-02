@@ -1,87 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>周韦杰粉丝俱乐部</title>
-        <style>
-.bgimg {
-    background-image: url(../static/images/bgimg.jpg);
-    background-attachment: fixed;
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>周韦杰粉丝俱乐部</title>
+    <link rel="stylesheet" href="../static/third_party/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <script src="../static/third_party/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+    <style>
+        .bgimg {
+            background-image: url(../static/images/bgimg.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+        }
 
-}
+        .container-fluid {
 
-                img {
-                    width: 10vw;
-                    margin: 2vw;
-                }
-
-                img:hover {
-                    transform: scale(1.1);
-                    transition: 2s;
-                }
-
-                video {
-                    width: 60vw;
-                    margin-left: 20vw;
-                }
-
-                audio {
-                    width: 40vw;
-                    background-color: chartreuse;
-                    margin-left: 30vw;
-                }
-        </style>
-    </head>
-
-    <body class="bgimg">
-        <h1 style="text-align:center;color: green;background-color: brown;width: 100vw;">帅气的周韦杰</h1>
-        <img src="../static/images/666.jpeg" alt="zwj">
-        <img src="../static/images/2.jpeg" alt="">
-        <img src="../static/images/3.jpeg" alt="">
-        <img src="../static/images/4.jpg" alt="">
-        <img src="../static/images/.jpeg" alt="">
-        <br>
-        <br>
-        <br>
-        <figure>
-
-            <audio src="../static/audios/bgm.mp3" controls></audio>
-            <figcaption style="text-align: center;">周韦杰最爱的音乐</figcaption>
-        </figure>
-
-        <br>
-
-        <figure>
-
-            <audio src="../static/audios/周杰伦-错过的烟火.mp3" controls></audio>
-            <figcaption style="text-align: center;">错过的烟火</figcaption>
-        </figure>
+            margin: 0 auto;
+            padding: 0px;
 
 
-        <br>
-        <figure>
 
-            <video
-                src="http://1310554227.vod2.myqcloud.com/dada5a67vodsh1310554227/102b5ec0387702304004261714/jtmklRuQxjEA.mp4"
-                 controls></video>
-        </figure>
-        <br>
-        <figure>
-            <video
-                src="http://1310554227.vod2.myqcloud.com/dada5a67vodsh1310554227/aa459de4387702304006284351/6I7ywM4T4roA.mp4"
-                controls></video>
-        </figure>
-        <br>
-        <figure>
-            <video
-                src="http://1310554227.vod2.myqcloud.com/dada5a67vodsh1310554227/668f8bef387702304005677249/rZAmA2tPgooA.mp4"
-                 controls></video>
-        </figure>
+        }
+
+        .navdiv {
+            background-color: rgb(5, 147, 211);
+            width: 100vw;
+            position: fixed;
+        }
+
+        .col {
+            height: 40px;
+            line-height: 40px;
+            float: left;
+            text-align: center;
+            font-size: 15px;
+            color: white;
+            border: 1px goldenrod solid;
 
 
-    </body>
+        }
+
+        .col:hover {
+            background-color: rgb(4, 130, 186);
+        }
+    </style>
+</head>
+
+
+<body class="bgimg" style="margin: 0px;">
+    <audio src="../static/audios/小雨写立可白.mp3" autoplay="autoplay" loop></audio>
+
+    <div class="navdiv">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col col-md-4 col-12 ">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-arrow-through-heart-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M2.854 15.854A.5.5 0 0 1 2 15.5V14H.5a.5.5 0 0 1-.354-.854l1.5-1.5A.5.5 0 0 1 2 11.5h1.793l3.103-3.104a.5.5 0 1 1 .708.708L4.5 12.207V14a.5.5 0 0 1-.146.354l-1.5 1.5ZM16 3.5a.5.5 0 0 1-.854.354L14 2.707l-1.006 1.006c.236.248.44.531.6.845.562 1.096.585 2.517-.213 4.092-.793 1.563-2.395 3.288-5.105 5.08L8 13.912l-.276-.182A23.825 23.825 0 0 1 5.8 12.323L8.31 9.81a1.5 1.5 0 0 0-2.122-2.122L3.657 10.22a8.827 8.827 0 0 1-1.039-1.57c-.798-1.576-.775-2.997-.213-4.093C3.426 2.565 6.18 1.809 8 3.233c1.25-.98 2.944-.928 4.212-.152L13.292 2 12.147.854A.5.5 0 0 1 12.5 0h3a.5.5 0 0 1 .5.5v3Z" />
+                    </svg> 周韦杰粉丝俱乐部
+                </div>
+                <div class="col col-md-2 col-8"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                    </svg>联系周韦杰</div>
+                <div class="col col-md-2 col-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-currency-dollar" viewBox="0 0 16 16">
+                        <path
+                            d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718H4zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73l.348.086z" />
+                    </svg>支持周韦杰
+                </div>
+                <div class="col col-md-1 col-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-music-note-beamed" viewBox="0 0 16 16">
+                        <path
+                            d="M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13c0-1.104 1.12-2 2.5-2s2.5.896 2.5 2zm9-2c0 1.105-1.12 2-2.5 2s-2.5-.895-2.5-2 1.12-2 2.5-2 2.5.895 2.5 2z" />
+                        <path fill-rule="evenodd" d="M14 11V2h1v9h-1zM6 3v10H5V3h1z" />
+                        <path d="M5 2.905a1 1 0 0 1 .9-.995l8-.8a1 1 0 0 1 1.1.995V3L5 4V2.905z" />
+                    </svg>音乐
+                </div>
+                <div class="col col-md-1 col-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-controller" viewBox="0 0 16 16">
+                        <path
+                            d="M11.5 6.027a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm-6.5-3h1v1h1v1h-1v1h-1v-1h-1v-1h1v-1z" />
+                        <path
+                            d="M3.051 3.26a.5.5 0 0 1 .354-.613l1.932-.518a.5.5 0 0 1 .62.39c.655-.079 1.35-.117 2.043-.117.72 0 1.443.041 2.12.126a.5.5 0 0 1 .622-.399l1.932.518a.5.5 0 0 1 .306.729c.14.09.266.19.373.297.408.408.78 1.05 1.095 1.772.32.733.599 1.591.805 2.466.206.875.34 1.78.364 2.606.024.816-.059 1.602-.328 2.21a1.42 1.42 0 0 1-1.445.83c-.636-.067-1.115-.394-1.513-.773-.245-.232-.496-.526-.739-.808-.126-.148-.25-.292-.368-.423-.728-.804-1.597-1.527-3.224-1.527-1.627 0-2.496.723-3.224 1.527-.119.131-.242.275-.368.423-.243.282-.494.575-.739.808-.398.38-.877.706-1.513.773a1.42 1.42 0 0 1-1.445-.83c-.27-.608-.352-1.395-.329-2.21.024-.826.16-1.73.365-2.606.206-.875.486-1.733.805-2.466.315-.722.687-1.364 1.094-1.772a2.34 2.34 0 0 1 .433-.335.504.504 0 0 1-.028-.079zm2.036.412c-.877.185-1.469.443-1.733.708-.276.276-.587.783-.885 1.465a13.748 13.748 0 0 0-.748 2.295 12.351 12.351 0 0 0-.339 2.406c-.022.755.062 1.368.243 1.776a.42.42 0 0 0 .426.24c.327-.034.61-.199.929-.502.212-.202.4-.423.615-.674.133-.156.276-.323.44-.504C4.861 9.969 5.978 9.027 8 9.027s3.139.942 3.965 1.855c.164.181.307.348.44.504.214.251.403.472.615.674.318.303.601.468.929.503a.42.42 0 0 0 .426-.241c.18-.408.265-1.02.243-1.776a12.354 12.354 0 0 0-.339-2.406 13.753 13.753 0 0 0-.748-2.295c-.298-.682-.61-1.19-.885-1.465-.264-.265-.856-.523-1.733-.708-.85-.179-1.877-.27-2.913-.27-1.036 0-2.063.091-2.913.27z" />
+                    </svg>游戏
+                </div>
+
+                <div class="col col-md-2 col-4"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+                        <path
+                            d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+                    </svg>更多</div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+</body>
 
 </html>
