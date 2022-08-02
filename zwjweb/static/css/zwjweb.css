@@ -1,0 +1,41 @@
+.bgimg {
+    background-image: url(../images/bgimg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container-fluid {
+
+    margin: 0 auto;
+    padding: 0px;
+
+
+
+}
+
+.navdiv {
+    background-color: rgb(5, 147, 211);
+    width: 100vw;
+    position: fixed;
+}
+
+.col {
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    border: 1px goldenrod solid;
+
+
+}
+
+.col:hover {
+    background-color: rgb(4, 130, 186);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
