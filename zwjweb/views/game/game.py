@@ -2,4 +2,4 @@ from django.shortcuts import render
 
 
 def game(request):
-    return render(request, 'game/cxk-ball-hitplane/index.html')
+    return render(request, 'game/game.html')
